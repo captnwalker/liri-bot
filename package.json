@@ -23,8 +23,10 @@
   "homepage": "https://github.com/captnwalker/liri-bot#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
+    "inquirer": "^4.0.2",
     "node-spotify-api": "^1.0.7",
     "request": "^2.83.0",
+    "simple-node-logger": "^0.93.33",
     "twitter": "^1.7.1"
   }
 }
