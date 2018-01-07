@@ -115,12 +115,16 @@ function mySwitch(userCommand) {
     }
 }
 
+
+// Fetch Spotify Keys
+var spotify = new spotify(keys.spotify);
+
 //Spotify
-function getSpotify(song) {
-    // Fetch Spotify Keys
-    var spotify = new Spotify(keys.spotify);
+function getSpotify(secondCommand) {
+    
+    
     //Search Spotify for song and track
-    spotify.search({ type: 'track', query: song }, function (error, data) {
+    spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
         //if error throw error
         if (!error) {
             for (var i = 0; i < data.tracks.items.length; i++) {
@@ -140,5 +144,6 @@ function getSpotify(song) {
         }
     });
 }
+
 //Call mySwitch function
-mySwitch();
+mySwitch(userCommand);
