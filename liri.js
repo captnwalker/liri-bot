@@ -1,26 +1,27 @@
-//require("dotenv").config();
+require("dotenv").config();
 
 //vars
 var keys = require("./keys.js");
 var fs = require("fs");
 var request = require("request");
-var twitter = require("twitter");
+var Twitter = require("twitter");
 var spotify = require("node-spotify-api");
 
-//input template
-console.log("Type my-tweets , spotify-this-song , movie-this , or do-what-it-says to get started!");
+//input template -- is this line stopping the program??
+//console.log("Type my-tweets , spotify-this-song , movie-this , or do-what-it-says to get started!");
 
 //argv[2] chooses users actions; argv[3] is input parameter, ie; movie title
 var userCommand = process.argv[2];
 var secondCommand = process.argv[3];
 
 //concatenate multiple words in 2nd user argument
-for (var i = 4; i < process.argv.length; i++) {
+for(var i = 4; i < process.argv.length; i++) {
     secondCommand += '+' + process.argv[i];
 }
 
 //Switch command
 function mySwitch(userCommand) {
+
     //choose which statement (userCommand) to switch to and execute
     switch (userCommand) {
 
@@ -46,18 +47,18 @@ function mySwitch(userCommand) {
         //Fetch Twitter Keys
         var client = new Twitter(keys.twitter);
         //Set my account to pull Tweets from
-        var screenName = {screen_name: 'captnwalker'};
+        var screenName = { screen_name: 'captnwalker' };
         //GET tweets
         client.get('statuses/user_timeline', screenName, function (error, tweets, response) {
             //throw error
-            if (!error) {
-                //Loop and Log first 20 tweets
-                for (var i = 0; i < tweets.length; i++) {
-                    var date = tweets[i].created_at;
-                    console.log("@captnwalker: " + tweets[i].text + " Created At: " + date.substring(0, 19));
-                    //seperator
-                    console.log("-----------------------");
-                }
+            if (error) throw error;
+
+            //Loop and Log first 20 tweets
+            for (var i = 0; i < tweets.length; i++) {
+                var date = tweets[i].created_at;
+                console.log("@captnwalker: " + tweets[i].text + " Created At: " + date.substring(0, 19));
+                //seperator
+                console.log("-----------------------");
             }
         });
     }
@@ -135,7 +136,6 @@ function getSpotify(song) {
                 console.log("Album: " + songInfo.album.name);
                 //Seperator
                 console.log("-----------------------");
-
             }
         }
     });
