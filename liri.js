@@ -14,7 +14,6 @@ var twitter = require("twitter");
 var spotify = require("node-spotify-api");
 
 
-
 //input template
 console.log("Type my-tweets , spotify-this-song , movie-this , or do-what-it-says to get started!");
 
@@ -27,27 +26,27 @@ for (var i = 4; i < process.argv.length; i++) {
     secondCommand += '+' + process.argv[i];
 }
 
-function mySwitch() {
-    //choose witch statement (user command) to switch to and execute
+function mySwitch(userCommand) {
+    //choose which statement (userCommand) to switch to and execute
     switch (userCommand) {
 
-        case 'my-tweets':
+        case "my-tweets":
             getTweets();
             break;
 
-        case 'spotify-this-song':
+        case "spotify-this-song":
             getSpotify();
             break;
 
-        case 'movie-this':
+        case "movie-this":
             getMovie();
             break;
 
-        case 'do-what-it-says':
+        case "do-what-it-says":
             doWhat();
             break;
-    }
-};
+  
+}
 
 //Twitter
 function getTweets() {
@@ -115,3 +114,6 @@ function doWhat(){
       spotifySong(txt[1]);
     });
   }
+}
+  mySwitch();
+ 
