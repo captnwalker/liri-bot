@@ -1,4 +1,4 @@
-require("dotenv").config();
+//require("dotenv").config();
 
 //vars
 var keys = require("./keys.js");
@@ -42,7 +42,7 @@ function mySwitch(userCommand) {
     }
 
     //Twitter
-    function getTweets() {        
+    function getTweets() {
         //Fetch Twitter Keys
         var client = new Twitter(keys.twitter);
         //Set my account to pull Tweets from
@@ -119,7 +119,7 @@ function getSpotify(song) {
     // Fetch Spotify Keys
     var spotify = new Spotify(keys.spotify);
     //Search Spotify for song and track
-    spotify.search({type: 'track', query: song}, function (error, data) {
+    spotify.search({ type: 'track', query: song }, function (error, data) {
         //if error throw error
         if (!error) {
             for (var i = 0; i < data.tracks.items.length; i++) {
