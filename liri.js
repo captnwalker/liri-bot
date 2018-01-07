@@ -1,18 +1,11 @@
 require("dotenv").config();
 
-
-//vars for keys given in instructions: spotify conflict between `require` and `keys` - have to comment out spotify'keys' to prevent error
-//var spotify = new Spotify(keys.spotify);
-// var client = new Twitter(keys.twitter);
-
-
 //vars
-var keys = require('./keys.js');
-var fs = require('fs');
+var keys = require("./keys.js");
+var fs = require("fs");
 var request = require("request");
 var twitter = require("twitter");
 var spotify = require("node-spotify-api");
-
 
 //input template
 console.log("Type my-tweets , spotify-this-song , movie-this , or do-what-it-says to get started!");
@@ -53,7 +46,7 @@ function mySwitch(userCommand) {
         //Fetch Twitter Keys
         var client = new Twitter(keys.twitter);
         //Set my account to pull Tweets from
-        var screenName = { screen_name: 'captnwalker' };
+        var screenName = {screen_name: 'captnwalker'};
         //GET tweets
         client.get('statuses/user_timeline', screenName, function (error, tweets, response) {
             //throw error
@@ -99,7 +92,7 @@ function mySwitch(userCommand) {
 
             } else {
                 //else - throw error
-                console.log('Error occurred.')
+                console.log("Error occurred.")
             }
             //Response if user does not type in a movie title
             if (movieName === "Mr. Nobody") {
@@ -113,7 +106,7 @@ function mySwitch(userCommand) {
     //Function for command do-what-it-says; reads and splits random.txt file
     function doWhat() {
         //Read random.txt file
-        fs.readFile('random.txt', "utf8", function (error, data) {
+        fs.readFile("random.txt", "utf8", function (error, data) {
             //split text with comma delimiter
             var txt = data.split(',');
             spotifySong(txt[1]);
@@ -126,7 +119,7 @@ function getSpotify(song) {
     // Fetch Spotify Keys
     var spotify = new Spotify(keys.spotify);
     //Search Spotify for song and track
-    spotify.search({ type: 'track', query: song }, function (error, data) {
+    spotify.search({type: 'track', query: song}, function (error, data) {
         //if error throw error
         if (!error) {
             for (var i = 0; i < data.tracks.items.length; i++) {
