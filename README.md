@@ -4,7 +4,7 @@
 
 `my-tweets` `spotify-this-song` `movie-this` `do-what-it-says`
 
-### Link to Live Site
+<!-- ### Link to Live Site -->
 
 <!-- [Liri Live Site](https://captnwalker.github.io/liri-node-app/ "Liri") -->
 
