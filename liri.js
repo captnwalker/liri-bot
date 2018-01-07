@@ -7,15 +7,15 @@ var request = require("request");
 var Twitter = require("twitter");
 var spotify = require("node-spotify-api");
 
-//input template -- is this line stopping the program??
-//console.log("Type my-tweets , spotify-this-song , movie-this , or do-what-it-says to get started!");
+//input template
+console.log("Possible commands are: my-tweets , spotify-this-song , movie-this , do-what-it-says");
 
 //argv[2] chooses users actions; argv[3] is input parameter, ie; movie title
 var userCommand = process.argv[2];
 var secondCommand = process.argv[3];
 
 //concatenate multiple words in 2nd user argument
-for(var i = 4; i < process.argv.length; i++) {
+for (var i = 4; i < process.argv.length; i++) {
     secondCommand += '+' + process.argv[i];
 }
 
@@ -89,8 +89,7 @@ function mySwitch(userCommand) {
                 console.log("Plot: " + body.Plot);
                 console.log("Actors: " + body.Actors);
                 console.log("Rotten Tomatoes Rating: " + body.tomatoRating);
-                console.log("Rotten Tomatoes URL: " + body.tomatoURL);
-
+              
             } else {
                 //else - throw error
                 console.log("Error occurred.")
@@ -108,21 +107,20 @@ function mySwitch(userCommand) {
     function doWhat() {
         //Read random.txt file
         fs.readFile("random.txt", "utf8", function (error, data) {
+            if (!error);
+            console.log(data.toString());
             //split text with comma delimiter
-            var txt = data.split(',');
-            getSpotify(txt[1]);
+            var cmds = data.toString().split(',');
         });
     }
 }
-
 
 // Fetch Spotify Keys
 var spotify = new spotify(keys.spotify);
 
 //Spotify
 function getSpotify(secondCommand) {
-    
-    
+
     //Search Spotify for song and track
     spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
         //if error throw error
