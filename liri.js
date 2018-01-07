@@ -109,7 +109,7 @@ function mySwitch(userCommand) {
         fs.readFile("random.txt", "utf8", function (error, data) {
             //split text with comma delimiter
             var txt = data.split(',');
-            spotifySong(txt[1]);
+            getSpotify(txt[1]);
         });
     }
 }
