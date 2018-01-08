@@ -42,7 +42,7 @@ function mySwitch(userCommand) {
             break;
     }
 
-    //Twitter
+    //Twitter - command: my-tweets
     function getTweets() {
         //Fetch Twitter Keys
         var client = new Twitter(keys.twitter);
@@ -63,24 +63,21 @@ function mySwitch(userCommand) {
         });
     }
 
-    //OMDB Movie 
+    //OMDB Movie - command: movie-this
     function getMovie() {
         // OMDB Movie - this MOVIE base code is from class files, I have modified for more data and assigned parse.body to a Var
         var movieName = secondCommand;
         // Then run a request to the OMDB API with the movie specified
-        var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes&apikey=trilogy";
-
-        // This line is just to help us debug against the actual URL.
-        console.log(queryUrl);
-
+        // var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes=true&apikey=trilogy";
+        var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&tomatoes=true&apikey=trilogy";
         request(queryUrl, function (error, response, body) {
 
-            // If the request is successful
+            // If the request is successful = 200
             if (!error && response.statusCode === 200) {
                 var body = JSON.parse(body);
-                // Parse the body of the site and recover just the imdbRating
-                // (Note: The syntax below for parsing isn't obvious. Just spend a few moments dissecting it).
+                
                 //I added addtional fields below to log each data point
+                console.log('================ Movie Info ================');
                 console.log("Title: " + body.Title);
                 console.log("Release Year: " + body.Year);
                 console.log("IMdB Rating: " + body.imdbRating);
@@ -88,7 +85,8 @@ function mySwitch(userCommand) {
                 console.log("Language: " + body.Language);
                 console.log("Plot: " + body.Plot);
                 console.log("Actors: " + body.Actors);
-                console.log("Rotten Tomatoes Rating: " + body.tomatoRating);
+                console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);                
+                console.log('==================THE END=================');
               
             } else {
                 //else - throw error
@@ -104,6 +102,7 @@ function mySwitch(userCommand) {
     }
 
     //Function for command do-what-it-says; reads and splits random.txt file
+    //command: do-what-it-says
     function doWhat() {
         //Read random.txt file
         fs.readFile("random.txt", "utf8", function (error, data) {
@@ -118,7 +117,7 @@ function mySwitch(userCommand) {
 // Fetch Spotify Keys
 var spotify = new spotify(keys.spotify);
 
-//Spotify
+//Spotify - command: spotify-this-song
 function getSpotify(secondCommand) {
 
     //Search Spotify for song and track
