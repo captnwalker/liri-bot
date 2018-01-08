@@ -6,6 +6,11 @@ var fs = require("fs");
 var request = require("request");
 var Twitter = require("twitter");
 var spotify = require("node-spotify-api");
+//creates log.txt file
+var filename = './log.txt';
+//NPM module used to write output to console and log.txt simulatneously
+var log = require('simple-node-logger').createSimpleFileLogger( filename );
+log.setLevel('all');
 
 //input template
 console.log("Possible commands are: my-tweets , spotify-this-song , movie-this , do-what-it-says");
@@ -56,9 +61,9 @@ function mySwitch(userCommand) {
             //Loop and Log first 20 tweets
             for (var i = 0; i < tweets.length; i++) {
                 var date = tweets[i].created_at;
-                console.log("@captnwalker: " + tweets[i].text + " Created At: " + date.substring(0, 19));
+                logOutput("@captnwalker: " + tweets[i].text + " Created At: " + date.substring(0, 19));
                 //seperator
-                console.log("-----------------------");
+                logOutput("-----------------------");
             }
         });
     }
@@ -77,17 +82,32 @@ function mySwitch(userCommand) {
                 var body = JSON.parse(body);
                 
                 //I added addtional fields below to log each data point
-                console.log('================ Movie Info ================');
-                console.log("Title: " + body.Title);
-                console.log("Release Year: " + body.Year);
-                console.log("IMdB Rating: " + body.imdbRating);
-                console.log("Country: " + body.Country);
-                console.log("Language: " + body.Language);
-                console.log("Plot: " + body.Plot);
-                console.log("Actors: " + body.Actors);
-                console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);                
-                console.log('==================THE END=================');
+                // console.log('================ Movie Info ================');
+                // console.log("Title: " + body.Title);
+                // console.log("Release Year: " + body.Year);
+                // console.log("IMdB Rating: " + body.imdbRating);
+                // console.log("Country: " + body.Country);
+                // console.log("Language: " + body.Language);
+                // console.log("Plot: " + body.Plot);
+                // console.log("Actors: " + body.Actors);
+                // console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
+                // console.log("Rotten Tomatoes URL: " + body.tomatoURL);             
+                // console.log('==================THE END=================');
               
+                //Simultaneously output to console and log.txt via NPM simple-node-logger
+                logOutput('================ Movie Info ================');
+                logOutput("Title: " + body.Title);
+                logOutput("Release Year: " + body.Year);
+                logOutput("IMdB Rating: " + body.imdbRating);
+                logOutput("Country: " + body.Country);
+                logOutput("Language: " + body.Language);
+                logOutput("Plot: " + body.Plot);
+                logOutput("Actors: " + body.Actors);
+                logOutput("Rotten Tomatoes Rating: " + body.Ratings[2].Value);  
+                logOutput("Rotten Tomatoes URL: " + body.tomatoURL);              
+                logOutput('==================THE END=================');
+
+
             } else {
                 //else - throw error
                 console.log("Error occurred.")
@@ -140,6 +160,12 @@ function getSpotify(secondCommand) {
             }
         }
     });
+}
+
+//Simulatenously logs output to the console and to a text file
+function logOutput(logText) {
+	log.info(logText);
+	console.log(logText);
 }
 
 //Call mySwitch function
