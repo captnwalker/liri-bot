@@ -10,7 +10,7 @@
 
 ### Screenshot of this Project
 
-![Liri](https://raw.github.com/captnwalker/liri_bot/master/screenshot.gif "Liri")
+![Liri Bot](https://raw.github.com/captnwalker/liri_bot/master/screenshot/screenshot.gif "Liri Bot")
 
 ### Technologies Utilized
 

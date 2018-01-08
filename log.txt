@@ -236,3 +236,60 @@ THE GODFATHER Created At: Mon Jan 08 04:45:43
 23:53:33.929 INFO  ----------------------- 
 23:53:33.930 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
 23:53:33.943 INFO  ----------------------- 
+00:11:50.562 INFO  @captnwalker: Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.
+KING KONG Created At: Mon Jan 08 04:52:38 
+00:11:50.562 INFO  ----------------------- 
+00:11:50.577 INFO  @captnwalker: Of all the gin joints in all the towns in all the world, she walks into mine.
+CASABLANCA Created At: Mon Jan 08 04:52:12 
+00:11:50.577 INFO  ----------------------- 
+00:11:50.577 INFO  @captnwalker: Gentlemen, you can't fight in here! This is the War Room!
+DR. STRANGELOVE Created At: Mon Jan 08 04:51:52 
+00:11:50.577 INFO  ----------------------- 
+00:11:50.577 INFO  @captnwalker: Keep your friends close, but your enemies closer.
+THE GODFATHER PART II Created At: Mon Jan 08 04:51:29 
+00:11:50.609 INFO  ----------------------- 
+00:11:50.609 INFO  @captnwalker: You had me at "hello."
+JERRY MAGUIRE Created At: Mon Jan 08 04:51:22 
+00:11:50.609 INFO  ----------------------- 
+00:11:50.609 INFO  @captnwalker: You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?
+DIRTY HARRY Created At: Mon Jan 08 04:50:50 
+00:11:50.609 INFO  ----------------------- 
+00:11:50.610 INFO  @captnwalker: Houston, we have a problem.
+APOLLO 13 Created At: Mon Jan 08 04:50:33 
+00:11:50.610 INFO  ----------------------- 
+00:11:50.610 INFO  @captnwalker: Stella! Hey, Stella!
+A STREETCAR NAMED DESIRE Created At: Mon Jan 08 04:50:09 
+00:11:50.610 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: I'll be back.
+THE TERMINATOR Created At: Mon Jan 08 04:49:44 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: I'll have what she's having.
+WHEN HARRY MET SALLY Created At: Mon Jan 08 04:49:14 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!
+THE TREASURE OF THE SIERRA MADRE Created At: Mon Jan 08 04:48:57 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: You can't handle the truth!
+A FEW GOOD MEN Created At: Mon Jan 08 04:48:03 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: Love means never having to say you're sorry.
+LOVE STORY Created At: Mon Jan 08 04:47:22 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: I love the smell of napalm in the morning.
+APOCALYPSE NOW Created At: Mon Jan 08 04:46:59 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: May the Force be with you.
+STAR WARS Created At: Mon Jan 08 04:46:39 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: Here's looking at you, kid.
+CASABLANCA Created At: Mon Jan 08 04:46:16 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, wh… https://t.co/Ut1YKjGBwi Created At: Mon Jan 08 04:46:02 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: I'm gonna make him an offer he can't refuse.
+THE GODFATHER Created At: Mon Jan 08 04:45:43 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.611 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+00:11:50.611 INFO  ----------------------- 
+00:11:50.612 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+00:11:50.612 INFO  ----------------------- 
