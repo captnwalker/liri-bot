@@ -5,7 +5,7 @@ var keys = require("./keys.js");
 var fs = require("fs");
 var request = require("request");
 var Twitter = require("twitter");
-var spotify = require("node-spotify-api");
+var Spotify = require("node-spotify-api");
 //creates log.txt file
 var filename = './log.txt';
 //NPM module used to write output to console and log.txt simulatneously
@@ -132,16 +132,18 @@ function mySwitch(userCommand) {
             var cmds = data.toString().split(',');
         });
     }
-}
+
+
 
 // Fetch Spotify Keys
-var spotify = new spotify(keys.spotify);
+var Spotify = new Spotify(keys.Spotify);
+
 
 //Spotify - command: spotify-this-song
 function getSpotify(secondCommand) {
 
     //Search Spotify for song and track
-    spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
+    Spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
         //if error throw error
         if (!error) {
             for (var i = 0; i < data.tracks.items.length; i++) {
@@ -162,6 +164,7 @@ function getSpotify(secondCommand) {
     });
 }
 
+}
 //Simulatenously logs output to the console and to a text file
 function logOutput(logText) {
 	log.info(logText);
