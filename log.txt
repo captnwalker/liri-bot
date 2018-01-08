@@ -19,3 +19,220 @@
 21:03:55.415 INFO  ----------------------- 
 21:03:55.415 INFO  @captnwalker: Writing Code Created At: Thu Jan 04 22:55:15 
 21:03:55.415 INFO  ----------------------- 
+23:12:12.479 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+23:12:12.479 INFO  ----------------------- 
+23:12:12.479 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+23:12:12.479 INFO  ----------------------- 
+23:12:12.479 INFO  @captnwalker: LIRI is like iPhone's SIRI. Created At: Thu Jan 04 23:47:53 
+23:12:12.479 INFO  ----------------------- 
+23:12:12.479 INFO  @captnwalker: Building Liri Created At: Thu Jan 04 23:47:36 
+23:12:12.479 INFO  ----------------------- 
+23:12:12.479 INFO  @captnwalker: Writing Code Created At: Thu Jan 04 22:55:15 
+23:12:12.479 INFO  ----------------------- 
+23:26:36.193 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+23:26:36.193 INFO  ----------------------- 
+23:26:36.193 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+23:26:36.193 INFO  ----------------------- 
+23:26:36.193 INFO  @captnwalker: LIRI is like iPhone's SIRI. Created At: Thu Jan 04 23:47:53 
+23:26:36.193 INFO  ----------------------- 
+23:26:36.193 INFO  @captnwalker: Building Liri Created At: Thu Jan 04 23:47:36 
+23:26:36.193 INFO  ----------------------- 
+23:26:36.193 INFO  @captnwalker: Writing Code Created At: Thu Jan 04 22:55:15 
+23:26:36.193 INFO  ----------------------- 
+23:31:54.885 INFO  ================ Movie Info ================ 
+23:31:54.901 INFO  Title: Blade Runner 
+23:31:54.901 INFO  Release Year: 1982 
+23:31:54.901 INFO  IMdB Rating: 8.2 
+23:31:54.901 INFO  Country: USA, Hong Kong 
+23:31:54.901 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+23:31:54.901 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+23:31:54.901 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+23:31:54.901 INFO  Rotten Tomatoes Rating: 89/100 
+23:31:54.901 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+23:31:54.901 INFO  ==================THE END================= 
+23:34:07.315 INFO  ================ Movie Info ================ 
+23:34:07.315 INFO  Title: Blade Runner 
+23:34:07.315 INFO  Release Year: 1982 
+23:34:07.315 INFO  IMdB Rating: 8.2 
+23:34:07.315 INFO  Country: USA, Hong Kong 
+23:34:07.315 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+23:34:07.315 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+23:34:07.315 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+23:34:07.315 INFO  Rotten Tomatoes Rating: 89/100 
+23:34:07.315 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+23:34:07.315 INFO  ==================THE END================= 
+23:34:15.356 INFO  ================ Movie Info ================ 
+23:34:15.356 INFO  Title: Blade Runner 
+23:34:15.356 INFO  Release Year: 1982 
+23:34:15.356 INFO  IMdB Rating: 8.2 
+23:34:15.356 INFO  Country: USA, Hong Kong 
+23:34:15.356 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+23:34:15.356 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+23:34:15.356 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+23:34:15.356 INFO  Rotten Tomatoes Rating: 89/100 
+23:34:15.356 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+23:34:15.356 INFO  ==================THE END================= 
+23:35:40.367 INFO  ================ Movie Info ================ 
+23:35:40.369 INFO  Title: Blade Runner 
+23:35:40.369 INFO  Release Year: 1982 
+23:35:40.369 INFO  IMdB Rating: 8.2 
+23:35:40.370 INFO  Country: USA, Hong Kong 
+23:35:40.370 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+23:35:40.370 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+23:35:40.372 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+23:35:40.372 INFO  Rotten Tomatoes Rating: 89/100 
+23:35:40.373 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+23:35:40.373 INFO  ==================THE END================= 
+23:35:53.578 INFO  ================ Movie Info ================ 
+23:35:53.578 INFO  Title: It 
+23:35:53.578 INFO  Release Year: 2017 
+23:35:53.578 INFO  IMdB Rating: 7.6 
+23:35:53.578 INFO  Country: USA, Canada 
+23:35:53.578 INFO  Language: English 
+23:35:53.578 INFO  Plot: A group of bullied kids band together when a shapeshifting monster, taking the appearance of a clown, begins hunting children. 
+23:35:53.593 INFO  Actors: Jaeden Lieberher, Jeremy Ray Taylor, Sophia Lillis, Finn Wolfhard 
+23:35:53.593 INFO  Rotten Tomatoes Rating: 70/100 
+23:35:53.593 INFO  Rotten Tomatoes URL: https://www.rottentomatoes.com/m/it_2017 
+23:35:53.593 INFO  ==================THE END================= 
+23:36:50.680 INFO  ================ Movie Info ================ 
+23:36:50.680 INFO  Title: Star Wars: Episode IV - A New Hope 
+23:36:50.680 INFO  Release Year: 1977 
+23:36:50.680 INFO  IMdB Rating: 8.7 
+23:36:50.680 INFO  Country: USA 
+23:36:50.680 INFO  Language: English 
+23:36:50.680 INFO  Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader. 
+23:36:50.680 INFO  Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing 
+23:36:50.680 INFO  Rotten Tomatoes Rating: 92/100 
+23:36:50.680 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/star_wars/ 
+23:36:50.680 INFO  ==================THE END================= 
+23:37:36.679 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+23:37:36.679 INFO  ----------------------- 
+23:37:36.679 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+23:37:36.679 INFO  ----------------------- 
+23:37:36.679 INFO  @captnwalker: LIRI is like iPhone's SIRI. Created At: Thu Jan 04 23:47:53 
+23:37:36.679 INFO  ----------------------- 
+23:37:36.679 INFO  @captnwalker: Building Liri Created At: Thu Jan 04 23:47:36 
+23:37:36.679 INFO  ----------------------- 
+23:37:36.679 INFO  @captnwalker: Writing Code Created At: Thu Jan 04 22:55:15 
+23:37:36.679 INFO  ----------------------- 
+23:38:44.050 INFO  ================ Movie Info ================ 
+23:38:44.050 INFO  Title: Star Wars: Episode IV - A New Hope 
+23:38:44.050 INFO  Release Year: 1977 
+23:38:44.050 INFO  IMdB Rating: 8.7 
+23:38:44.050 INFO  Country: USA 
+23:38:44.050 INFO  Language: English 
+23:38:44.050 INFO  Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader. 
+23:38:44.050 INFO  Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing 
+23:38:44.050 INFO  Rotten Tomatoes Rating: 92/100 
+23:38:44.050 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/star_wars/ 
+23:38:44.050 INFO  ==================THE END================= 
+23:38:50.459 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+23:38:50.460 INFO  ----------------------- 
+23:38:50.461 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+23:38:50.461 INFO  ----------------------- 
+23:38:50.462 INFO  @captnwalker: LIRI is like iPhone's SIRI. Created At: Thu Jan 04 23:47:53 
+23:38:50.462 INFO  ----------------------- 
+23:38:50.462 INFO  @captnwalker: Building Liri Created At: Thu Jan 04 23:47:36 
+23:38:50.463 INFO  ----------------------- 
+23:38:50.463 INFO  @captnwalker: Writing Code Created At: Thu Jan 04 22:55:15 
+23:38:50.463 INFO  ----------------------- 
+23:39:08.426 INFO  ================ Movie Info ================ 
+23:39:08.427 INFO  Title: It 
+23:39:08.428 INFO  Release Year: 2017 
+23:39:08.428 INFO  IMdB Rating: 7.6 
+23:39:08.429 INFO  Country: USA, Canada 
+23:39:08.429 INFO  Language: English 
+23:39:08.430 INFO  Plot: A group of bullied kids band together when a shapeshifting monster, taking the appearance of a clown, begins hunting children. 
+23:39:08.430 INFO  Actors: Jaeden Lieberher, Jeremy Ray Taylor, Sophia Lillis, Finn Wolfhard 
+23:39:08.431 INFO  Rotten Tomatoes Rating: 70/100 
+23:39:08.431 INFO  Rotten Tomatoes URL: https://www.rottentomatoes.com/m/it_2017 
+23:39:08.432 INFO  ==================THE END================= 
+23:39:15.245 INFO  ================ Movie Info ================ 
+23:39:15.245 INFO  Title: Blade Runner 
+23:39:15.245 INFO  Release Year: 1982 
+23:39:15.245 INFO  IMdB Rating: 8.2 
+23:39:15.245 INFO  Country: USA, Hong Kong 
+23:39:15.245 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+23:39:15.245 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+23:39:15.245 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+23:39:15.245 INFO  Rotten Tomatoes Rating: 89/100 
+23:39:15.245 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+23:39:15.245 INFO  ==================THE END================= 
+23:43:19.412 INFO  ================ Movie Info ================ 
+23:43:19.412 INFO  Title: Blade Runner 
+23:43:19.412 INFO  Release Year: 1982 
+23:43:19.412 INFO  IMdB Rating: 8.2 
+23:43:19.412 INFO  Country: USA, Hong Kong 
+23:43:19.412 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+23:43:19.412 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+23:43:19.412 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+23:43:19.412 INFO  Rotten Tomatoes Rating: 89/100 
+23:43:19.412 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+23:43:19.412 INFO  ==================THE END================= 
+23:43:30.893 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+23:43:30.893 INFO  ----------------------- 
+23:43:30.893 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+23:43:30.893 INFO  ----------------------- 
+23:43:30.893 INFO  @captnwalker: LIRI is like iPhone's SIRI. Created At: Thu Jan 04 23:47:53 
+23:43:30.893 INFO  ----------------------- 
+23:43:30.893 INFO  @captnwalker: Building Liri Created At: Thu Jan 04 23:47:36 
+23:43:30.893 INFO  ----------------------- 
+23:43:30.893 INFO  @captnwalker: Writing Code Created At: Thu Jan 04 22:55:15 
+23:43:30.893 INFO  ----------------------- 
+23:53:33.888 INFO  @captnwalker: Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.
+KING KONG Created At: Mon Jan 08 04:52:38 
+23:53:33.889 INFO  ----------------------- 
+23:53:33.890 INFO  @captnwalker: Of all the gin joints in all the towns in all the world, she walks into mine.
+CASABLANCA Created At: Mon Jan 08 04:52:12 
+23:53:33.892 INFO  ----------------------- 
+23:53:33.893 INFO  @captnwalker: Gentlemen, you can't fight in here! This is the War Room!
+DR. STRANGELOVE Created At: Mon Jan 08 04:51:52 
+23:53:33.897 INFO  ----------------------- 
+23:53:33.913 INFO  @captnwalker: Keep your friends close, but your enemies closer.
+THE GODFATHER PART II Created At: Mon Jan 08 04:51:29 
+23:53:33.916 INFO  ----------------------- 
+23:53:33.916 INFO  @captnwalker: You had me at "hello."
+JERRY MAGUIRE Created At: Mon Jan 08 04:51:22 
+23:53:33.917 INFO  ----------------------- 
+23:53:33.917 INFO  @captnwalker: You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?
+DIRTY HARRY Created At: Mon Jan 08 04:50:50 
+23:53:33.917 INFO  ----------------------- 
+23:53:33.918 INFO  @captnwalker: Houston, we have a problem.
+APOLLO 13 Created At: Mon Jan 08 04:50:33 
+23:53:33.918 INFO  ----------------------- 
+23:53:33.918 INFO  @captnwalker: Stella! Hey, Stella!
+A STREETCAR NAMED DESIRE Created At: Mon Jan 08 04:50:09 
+23:53:33.919 INFO  ----------------------- 
+23:53:33.919 INFO  @captnwalker: I'll be back.
+THE TERMINATOR Created At: Mon Jan 08 04:49:44 
+23:53:33.919 INFO  ----------------------- 
+23:53:33.919 INFO  @captnwalker: I'll have what she's having.
+WHEN HARRY MET SALLY Created At: Mon Jan 08 04:49:14 
+23:53:33.920 INFO  ----------------------- 
+23:53:33.920 INFO  @captnwalker: Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!
+THE TREASURE OF THE SIERRA MADRE Created At: Mon Jan 08 04:48:57 
+23:53:33.920 INFO  ----------------------- 
+23:53:33.920 INFO  @captnwalker: You can't handle the truth!
+A FEW GOOD MEN Created At: Mon Jan 08 04:48:03 
+23:53:33.920 INFO  ----------------------- 
+23:53:33.921 INFO  @captnwalker: Love means never having to say you're sorry.
+LOVE STORY Created At: Mon Jan 08 04:47:22 
+23:53:33.921 INFO  ----------------------- 
+23:53:33.921 INFO  @captnwalker: I love the smell of napalm in the morning.
+APOCALYPSE NOW Created At: Mon Jan 08 04:46:59 
+23:53:33.921 INFO  ----------------------- 
+23:53:33.921 INFO  @captnwalker: May the Force be with you.
+STAR WARS Created At: Mon Jan 08 04:46:39 
+23:53:33.922 INFO  ----------------------- 
+23:53:33.922 INFO  @captnwalker: Here's looking at you, kid.
+CASABLANCA Created At: Mon Jan 08 04:46:16 
+23:53:33.922 INFO  ----------------------- 
+23:53:33.922 INFO  @captnwalker: You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, wh… https://t.co/Ut1YKjGBwi Created At: Mon Jan 08 04:46:02 
+23:53:33.923 INFO  ----------------------- 
+23:53:33.923 INFO  @captnwalker: I'm gonna make him an offer he can't refuse.
+THE GODFATHER Created At: Mon Jan 08 04:45:43 
+23:53:33.923 INFO  ----------------------- 
+23:53:33.929 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+23:53:33.929 INFO  ----------------------- 
+23:53:33.930 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+23:53:33.943 INFO  ----------------------- 

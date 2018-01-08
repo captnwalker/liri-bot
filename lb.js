@@ -5,15 +5,15 @@ var keys = require("./keys.js");
 var fs = require("fs");
 var request = require("request");
 var Twitter = require("twitter");
-var Spotify = require("node-spotify-api");
+var Spotify = require('node-spotify-api');
 //creates log.txt file
 var filename = './log.txt';
 //NPM module used to write output to console and log.txt simulatneously
-var log = require('simple-node-logger').createSimpleFileLogger( filename );
+var log = require('simple-node-logger').createSimpleFileLogger(filename);
 log.setLevel('all');
 
 //input template
-//console.log("Possible commands are: my-tweets , spotify-this-song , movie-this , do-what-it-says");
+console.log("Possible commands are: my-tweets , spotify-this-song , movie-this , do-what-it-says");
 
 //argv[2] chooses users actions; argv[3] is input parameter, ie; movie title
 var userCommand = process.argv[2];
@@ -47,7 +47,7 @@ function mySwitch(userCommand) {
             break;
     }
 
-    //Twitter - command: my-tweets
+    //Twitter function - command: my-tweets
     function getTweets() {
         //Fetch Twitter Keys
         var client = new Twitter(keys.twitter);
@@ -68,32 +68,19 @@ function mySwitch(userCommand) {
         });
     }
 
-    //OMDB Movie - command: movie-this
+    //OMDB Movie function - command: movie-this
     function getMovie() {
         // OMDB Movie - this MOVIE base code is from class files, I have modified for more data and assigned parse.body to a Var
         var movieName = secondCommand;
         // Then run a request to the OMDB API with the movie specified
-         var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes=true&apikey=trilogy";
-        //var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&tomatoes=true&apikey=trilogy";
+        // var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes=true&apikey=trilogy";
+        var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&tomatoes=true&apikey=trilogy";
         request(queryUrl, function (error, response, body) {
 
             // If the request is successful = 200
             if (!error && response.statusCode === 200) {
                 var body = JSON.parse(body);
-                
-                //I added addtional fields below to log each data point
-                // console.log('================ Movie Info ================');
-                // console.log("Title: " + body.Title);
-                // console.log("Release Year: " + body.Year);
-                // console.log("IMdB Rating: " + body.imdbRating);
-                // console.log("Country: " + body.Country);
-                // console.log("Language: " + body.Language);
-                // console.log("Plot: " + body.Plot);
-                // console.log("Actors: " + body.Actors);
-                // console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
-                // console.log("Rotten Tomatoes URL: " + body.tomatoURL);             
-                // console.log('==================THE END=================');
-              
+
                 //Simultaneously output to console and log.txt via NPM simple-node-logger
                 logOutput('================ Movie Info ================');
                 logOutput("Title: " + body.Title);
@@ -103,8 +90,8 @@ function mySwitch(userCommand) {
                 logOutput("Language: " + body.Language);
                 logOutput("Plot: " + body.Plot);
                 logOutput("Actors: " + body.Actors);
-                logOutput("Rotten Tomatoes Rating: " + body.Ratings[2].Value);  
-                logOutput("Rotten Tomatoes URL: " + body.tomatoURL);              
+                logOutput("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
+                logOutput("Rotten Tomatoes URL: " + body.tomatoURL);
                 logOutput('==================THE END=================');
 
             } else {
@@ -132,46 +119,52 @@ function mySwitch(userCommand) {
         });
     }
 
+    // Fetch Spotify Keys
+    //var Spotify = new Spotify(keys.Spotify);
+    var Spotify = new Spotify({
+        id: c6754aed4fabadc4840079b31ad6,
+        secret: d567d50485443a3ac151505536fe7fe
+    });
+
+    //Spotify function - command: spotify-this-song
+    function getSpotify(secondCommand) {
+
+        //BEGIN - FROM THE NPM/////////////////////////////////////////////////////////////////////
+        spotify.search({ type: 'track', query: secondCommand }, function (err, data) {
+            if (err) {
+                return console.log('Error occurred: ' + err);
+            }
+            //END - FROM THE NPM/////////////////////////////////////////////////////////////////////
+
+            //Search Spotify for song and track
+            // Spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
+            //     //if error throw error
+            //     if (!error) {
+            //         for (var i = 0; i < data.tracks.items.length; i++) {
+            //             //Set var to return song data
+            //             var songInfo = data.tracks.items[i];
 
 
-// Fetch Spotify Keys
-//var Spotify = new Spotify(keys.Spotify);
+            //Return Artist
+            console.log("Artist: " + songInfo.artists[0].name);
+            //Return name of Song
+            console.log("Song: " + songInfo.name);
+            //Return preview link URL
+            console.log("Preview URL: " + songInfo.preview_url);
+            //Return name of Album
+            console.log("Album: " + songInfo.album.name);
+            //Seperator
+            console.log("-----------------------");
+        });
+        //}
+    }
+    // }
 
-
-// //Spotify - command: spotify-this-song
-// function getSpotify(secondCommand) {
-
-//     //Search Spotify for song and track
-//     Spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
-//         //if error throw error
-//         if (!error) {
-//             for (var i = 0; i < data.tracks.items.length; i++) {
-//                 //Set var to return song data
-//                 var songInfo = data.tracks.items[i];
-//                 //Return Artist
-//                 console.log("Artist: " + songInfo.artists[0].name);
-//                 //Return name of Song
-//                 console.log("Song: " + songInfo.name);
-//                 //Return preview link URL
-//                 console.log("Preview URL: " + songInfo.preview_url);
-//                 //Return name of Album
-//                 console.log("Album: " + songInfo.album.name);
-//                 //Seperator
-//                 console.log("-----------------------");
-//             }
-//         }
-//     });
-// }
-
-
-
-//Simulatenously logs output to the console and to a text file
-function logOutput(logText) {
-	log.info(logText);
-	console.log(logText);
-}
-
-//Closes mySwitch func - Everything except the call must be in this scope
+    //Simulatenously logs output to the console and to a text file
+    function logOutput(logText) {
+        log.info(logText);
+        console.log(logText);
+    }
 }
 
 //Call mySwitch function
