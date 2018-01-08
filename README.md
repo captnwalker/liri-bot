@@ -4,10 +4,6 @@
 
 `my-tweets` `spotify-this-song` `movie-this` `do-what-it-says`
 
-<!-- ### Link to Live Site -->
-
-<!-- [Liri Live Site](https://captnwalker.github.io/liri-node-app/ "Liri") -->
-
 ### Screenshot of this Project
 
 ![Liri Bot](https://raw.github.com/captnwalker/liri-bot/master/screenshot/screenshot.gif "Liri Bot")

@@ -66,3 +66,308 @@ THE GODFATHER Created At: Mon Jan 08 04:45:43
 00:24:16.150 INFO  Rotten Tomatoes Rating: 89/100 
 00:24:16.150 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
 00:24:16.150 INFO  ==================THE END================= 
+00:46:51.551 INFO  ================ Movie Info ================ 
+00:46:51.552 INFO  Title: Blade Runner 
+00:46:51.552 INFO  Release Year: 1982 
+00:46:51.553 INFO  IMdB Rating: 8.2 
+00:46:51.553 INFO  Country: USA, Hong Kong 
+00:46:51.553 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+00:46:51.553 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+00:46:51.554 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+00:46:51.554 INFO  Rotten Tomatoes Rating: 89/100 
+00:46:51.554 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+00:46:51.554 INFO  ==================THE END================= 
+00:47:19.207 INFO  ================ Movie Info ================ 
+00:47:19.207 INFO  Title: Blade Runner 
+00:47:19.207 INFO  Release Year: 1982 
+00:47:19.207 INFO  IMdB Rating: 8.2 
+00:47:19.207 INFO  Country: USA, Hong Kong 
+00:47:19.207 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+00:47:19.207 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+00:47:19.207 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+00:47:19.207 INFO  Rotten Tomatoes Rating: 89/100 
+00:47:19.207 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+00:47:19.207 INFO  ==================THE END================= 
+00:49:02.548 INFO  @captnwalker: Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.
+KING KONG Created At: Mon Jan 08 04:52:38 
+00:49:02.549 INFO  ----------------------- 
+00:49:02.550 INFO  @captnwalker: Of all the gin joints in all the towns in all the world, she walks into mine.
+CASABLANCA Created At: Mon Jan 08 04:52:12 
+00:49:02.550 INFO  ----------------------- 
+00:49:02.551 INFO  @captnwalker: Gentlemen, you can't fight in here! This is the War Room!
+DR. STRANGELOVE Created At: Mon Jan 08 04:51:52 
+00:49:02.551 INFO  ----------------------- 
+00:49:02.552 INFO  @captnwalker: Keep your friends close, but your enemies closer.
+THE GODFATHER PART II Created At: Mon Jan 08 04:51:29 
+00:49:02.552 INFO  ----------------------- 
+00:49:02.554 INFO  @captnwalker: You had me at "hello."
+JERRY MAGUIRE Created At: Mon Jan 08 04:51:22 
+00:49:02.554 INFO  ----------------------- 
+00:49:02.555 INFO  @captnwalker: You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?
+DIRTY HARRY Created At: Mon Jan 08 04:50:50 
+00:49:02.555 INFO  ----------------------- 
+00:49:02.555 INFO  @captnwalker: Houston, we have a problem.
+APOLLO 13 Created At: Mon Jan 08 04:50:33 
+00:49:02.555 INFO  ----------------------- 
+00:49:02.556 INFO  @captnwalker: Stella! Hey, Stella!
+A STREETCAR NAMED DESIRE Created At: Mon Jan 08 04:50:09 
+00:49:02.556 INFO  ----------------------- 
+00:49:02.556 INFO  @captnwalker: I'll be back.
+THE TERMINATOR Created At: Mon Jan 08 04:49:44 
+00:49:02.556 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: I'll have what she's having.
+WHEN HARRY MET SALLY Created At: Mon Jan 08 04:49:14 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!
+THE TREASURE OF THE SIERRA MADRE Created At: Mon Jan 08 04:48:57 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: You can't handle the truth!
+A FEW GOOD MEN Created At: Mon Jan 08 04:48:03 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: Love means never having to say you're sorry.
+LOVE STORY Created At: Mon Jan 08 04:47:22 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: I love the smell of napalm in the morning.
+APOCALYPSE NOW Created At: Mon Jan 08 04:46:59 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: May the Force be with you.
+STAR WARS Created At: Mon Jan 08 04:46:39 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: Here's looking at you, kid.
+CASABLANCA Created At: Mon Jan 08 04:46:16 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, wh… https://t.co/Ut1YKjGBwi Created At: Mon Jan 08 04:46:02 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: I'm gonna make him an offer he can't refuse.
+THE GODFATHER Created At: Mon Jan 08 04:45:43 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+00:49:02.557 INFO  ----------------------- 
+00:49:02.557 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+00:49:02.557 INFO  ----------------------- 
+00:59:04.447 INFO  ================ Movie Info ================ 
+00:59:04.447 INFO  Title: Blade Runner 
+00:59:04.447 INFO  Release Year: 1982 
+00:59:04.447 INFO  IMdB Rating: 8.2 
+00:59:04.447 INFO  Country: USA, Hong Kong 
+00:59:04.447 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+00:59:04.447 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+00:59:04.447 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+00:59:04.447 INFO  Rotten Tomatoes Rating: 89/100 
+00:59:04.447 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+00:59:04.447 INFO  ==================THE END================= 
+01:01:52.113 INFO  ================ Movie Info ================ 
+01:01:52.113 INFO  Title: Blade Runner 
+01:01:52.113 INFO  Release Year: 1982 
+01:01:52.113 INFO  IMdB Rating: 8.2 
+01:01:52.113 INFO  Country: USA, Hong Kong 
+01:01:52.113 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+01:01:52.113 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+01:01:52.113 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+01:01:52.113 INFO  Rotten Tomatoes Rating: 89/100 
+01:01:52.113 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+01:01:52.113 INFO  ==================THE END================= 
+01:10:08.285 INFO  ================ Movie Info ================ 
+01:10:08.285 INFO  Title: Blade Runner 
+01:10:08.285 INFO  Release Year: 1982 
+01:10:08.285 INFO  IMdB Rating: 8.2 
+01:10:08.285 INFO  Country: USA, Hong Kong 
+01:10:08.285 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+01:10:08.285 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+01:10:08.285 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+01:10:08.285 INFO  Rotten Tomatoes Rating: 89/100 
+01:10:08.285 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+01:10:08.285 INFO  ==================THE END================= 
+01:17:48.759 INFO  ================ Movie Info ================ 
+01:17:48.759 INFO  Title: Blade Runner 
+01:17:48.759 INFO  Release Year: 1982 
+01:17:48.759 INFO  IMdB Rating: 8.2 
+01:17:48.759 INFO  Country: USA, Hong Kong 
+01:17:48.759 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+01:17:48.759 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+01:17:48.759 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+01:17:48.759 INFO  Rotten Tomatoes Rating: 89/100 
+01:17:48.759 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+01:17:48.759 INFO  ==================THE END================= 
+01:18:05.643 INFO  @captnwalker: Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.
+KING KONG Created At: Mon Jan 08 04:52:38 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Of all the gin joints in all the towns in all the world, she walks into mine.
+CASABLANCA Created At: Mon Jan 08 04:52:12 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Gentlemen, you can't fight in here! This is the War Room!
+DR. STRANGELOVE Created At: Mon Jan 08 04:51:52 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Keep your friends close, but your enemies closer.
+THE GODFATHER PART II Created At: Mon Jan 08 04:51:29 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: You had me at "hello."
+JERRY MAGUIRE Created At: Mon Jan 08 04:51:22 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?
+DIRTY HARRY Created At: Mon Jan 08 04:50:50 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Houston, we have a problem.
+APOLLO 13 Created At: Mon Jan 08 04:50:33 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Stella! Hey, Stella!
+A STREETCAR NAMED DESIRE Created At: Mon Jan 08 04:50:09 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: I'll be back.
+THE TERMINATOR Created At: Mon Jan 08 04:49:44 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: I'll have what she's having.
+WHEN HARRY MET SALLY Created At: Mon Jan 08 04:49:14 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!
+THE TREASURE OF THE SIERRA MADRE Created At: Mon Jan 08 04:48:57 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: You can't handle the truth!
+A FEW GOOD MEN Created At: Mon Jan 08 04:48:03 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Love means never having to say you're sorry.
+LOVE STORY Created At: Mon Jan 08 04:47:22 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: I love the smell of napalm in the morning.
+APOCALYPSE NOW Created At: Mon Jan 08 04:46:59 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: May the Force be with you.
+STAR WARS Created At: Mon Jan 08 04:46:39 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: Here's looking at you, kid.
+CASABLANCA Created At: Mon Jan 08 04:46:16 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, wh… https://t.co/Ut1YKjGBwi Created At: Mon Jan 08 04:46:02 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: I'm gonna make him an offer he can't refuse.
+THE GODFATHER Created At: Mon Jan 08 04:45:43 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+01:18:05.643 INFO  ----------------------- 
+01:18:05.643 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+01:18:05.643 INFO  ----------------------- 
+01:19:59.039 INFO  @captnwalker: Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.
+KING KONG Created At: Mon Jan 08 04:52:38 
+01:19:59.039 INFO  ----------------------- 
+01:19:59.039 INFO  @captnwalker: Of all the gin joints in all the towns in all the world, she walks into mine.
+CASABLANCA Created At: Mon Jan 08 04:52:12 
+01:19:59.039 INFO  ----------------------- 
+01:19:59.039 INFO  @captnwalker: Gentlemen, you can't fight in here! This is the War Room!
+DR. STRANGELOVE Created At: Mon Jan 08 04:51:52 
+01:19:59.039 INFO  ----------------------- 
+01:19:59.039 INFO  @captnwalker: Keep your friends close, but your enemies closer.
+THE GODFATHER PART II Created At: Mon Jan 08 04:51:29 
+01:19:59.039 INFO  ----------------------- 
+01:19:59.054 INFO  @captnwalker: You had me at "hello."
+JERRY MAGUIRE Created At: Mon Jan 08 04:51:22 
+01:19:59.054 INFO  ----------------------- 
+01:19:59.054 INFO  @captnwalker: You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?
+DIRTY HARRY Created At: Mon Jan 08 04:50:50 
+01:19:59.054 INFO  ----------------------- 
+01:19:59.070 INFO  @captnwalker: Houston, we have a problem.
+APOLLO 13 Created At: Mon Jan 08 04:50:33 
+01:19:59.070 INFO  ----------------------- 
+01:19:59.071 INFO  @captnwalker: Stella! Hey, Stella!
+A STREETCAR NAMED DESIRE Created At: Mon Jan 08 04:50:09 
+01:19:59.071 INFO  ----------------------- 
+01:19:59.071 INFO  @captnwalker: I'll be back.
+THE TERMINATOR Created At: Mon Jan 08 04:49:44 
+01:19:59.071 INFO  ----------------------- 
+01:19:59.072 INFO  @captnwalker: I'll have what she's having.
+WHEN HARRY MET SALLY Created At: Mon Jan 08 04:49:14 
+01:19:59.072 INFO  ----------------------- 
+01:19:59.072 INFO  @captnwalker: Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!
+THE TREASURE OF THE SIERRA MADRE Created At: Mon Jan 08 04:48:57 
+01:19:59.072 INFO  ----------------------- 
+01:19:59.072 INFO  @captnwalker: You can't handle the truth!
+A FEW GOOD MEN Created At: Mon Jan 08 04:48:03 
+01:19:59.073 INFO  ----------------------- 
+01:19:59.073 INFO  @captnwalker: Love means never having to say you're sorry.
+LOVE STORY Created At: Mon Jan 08 04:47:22 
+01:19:59.073 INFO  ----------------------- 
+01:19:59.073 INFO  @captnwalker: I love the smell of napalm in the morning.
+APOCALYPSE NOW Created At: Mon Jan 08 04:46:59 
+01:19:59.073 INFO  ----------------------- 
+01:19:59.074 INFO  @captnwalker: May the Force be with you.
+STAR WARS Created At: Mon Jan 08 04:46:39 
+01:19:59.074 INFO  ----------------------- 
+01:19:59.074 INFO  @captnwalker: Here's looking at you, kid.
+CASABLANCA Created At: Mon Jan 08 04:46:16 
+01:19:59.074 INFO  ----------------------- 
+01:19:59.074 INFO  @captnwalker: You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, wh… https://t.co/Ut1YKjGBwi Created At: Mon Jan 08 04:46:02 
+01:19:59.075 INFO  ----------------------- 
+01:19:59.075 INFO  @captnwalker: I'm gonna make him an offer he can't refuse.
+THE GODFATHER Created At: Mon Jan 08 04:45:43 
+01:19:59.075 INFO  ----------------------- 
+01:19:59.075 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+01:19:59.075 INFO  ----------------------- 
+01:19:59.075 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+01:19:59.076 INFO  ----------------------- 
+01:20:57.439 INFO  @captnwalker: Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.
+KING KONG Created At: Mon Jan 08 04:52:38 
+01:20:57.439 INFO  ----------------------- 
+01:20:57.439 INFO  @captnwalker: Of all the gin joints in all the towns in all the world, she walks into mine.
+CASABLANCA Created At: Mon Jan 08 04:52:12 
+01:20:57.439 INFO  ----------------------- 
+01:20:57.439 INFO  @captnwalker: Gentlemen, you can't fight in here! This is the War Room!
+DR. STRANGELOVE Created At: Mon Jan 08 04:51:52 
+01:20:57.439 INFO  ----------------------- 
+01:20:57.439 INFO  @captnwalker: Keep your friends close, but your enemies closer.
+THE GODFATHER PART II Created At: Mon Jan 08 04:51:29 
+01:20:57.439 INFO  ----------------------- 
+01:20:57.439 INFO  @captnwalker: You had me at "hello."
+JERRY MAGUIRE Created At: Mon Jan 08 04:51:22 
+01:20:57.454 INFO  ----------------------- 
+01:20:57.454 INFO  @captnwalker: You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?
+DIRTY HARRY Created At: Mon Jan 08 04:50:50 
+01:20:57.454 INFO  ----------------------- 
+01:20:57.454 INFO  @captnwalker: Houston, we have a problem.
+APOLLO 13 Created At: Mon Jan 08 04:50:33 
+01:20:57.454 INFO  ----------------------- 
+01:20:57.477 INFO  @captnwalker: Stella! Hey, Stella!
+A STREETCAR NAMED DESIRE Created At: Mon Jan 08 04:50:09 
+01:20:57.478 INFO  ----------------------- 
+01:20:57.478 INFO  @captnwalker: I'll be back.
+THE TERMINATOR Created At: Mon Jan 08 04:49:44 
+01:20:57.478 INFO  ----------------------- 
+01:20:57.479 INFO  @captnwalker: I'll have what she's having.
+WHEN HARRY MET SALLY Created At: Mon Jan 08 04:49:14 
+01:20:57.479 INFO  ----------------------- 
+01:20:57.479 INFO  @captnwalker: Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!
+THE TREASURE OF THE SIERRA MADRE Created At: Mon Jan 08 04:48:57 
+01:20:57.479 INFO  ----------------------- 
+01:20:57.479 INFO  @captnwalker: You can't handle the truth!
+A FEW GOOD MEN Created At: Mon Jan 08 04:48:03 
+01:20:57.479 INFO  ----------------------- 
+01:20:57.480 INFO  @captnwalker: Love means never having to say you're sorry.
+LOVE STORY Created At: Mon Jan 08 04:47:22 
+01:20:57.480 INFO  ----------------------- 
+01:20:57.480 INFO  @captnwalker: I love the smell of napalm in the morning.
+APOCALYPSE NOW Created At: Mon Jan 08 04:46:59 
+01:20:57.480 INFO  ----------------------- 
+01:20:57.480 INFO  @captnwalker: May the Force be with you.
+STAR WARS Created At: Mon Jan 08 04:46:39 
+01:20:57.480 INFO  ----------------------- 
+01:20:57.480 INFO  @captnwalker: Here's looking at you, kid.
+CASABLANCA Created At: Mon Jan 08 04:46:16 
+01:20:57.480 INFO  ----------------------- 
+01:20:57.480 INFO  @captnwalker: You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, wh… https://t.co/Ut1YKjGBwi Created At: Mon Jan 08 04:46:02 
+01:20:57.480 INFO  ----------------------- 
+01:20:57.481 INFO  @captnwalker: I'm gonna make him an offer he can't refuse.
+THE GODFATHER Created At: Mon Jan 08 04:45:43 
+01:20:57.481 INFO  ----------------------- 
+01:20:57.481 INFO  @captnwalker: LIRI will be a command line node app that takes in parameters and gives you back data. Created At: Thu Jan 04 23:48:16 
+01:20:57.481 INFO  ----------------------- 
+01:20:57.481 INFO  @captnwalker: However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Created At: Thu Jan 04 23:48:06 
+01:20:57.481 INFO  ----------------------- 
+01:21:13.198 INFO  ================ Movie Info ================ 
+01:21:13.198 INFO  Title: Blade Runner 
+01:21:13.198 INFO  Release Year: 1982 
+01:21:13.198 INFO  IMdB Rating: 8.2 
+01:21:13.198 INFO  Country: USA, Hong Kong 
+01:21:13.198 INFO  Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+01:21:13.198 INFO  Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+01:21:13.198 INFO  Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos 
+01:21:13.198 INFO  Rotten Tomatoes Rating: 89/100 
+01:21:13.198 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/blade_runner/ 
+01:21:13.214 INFO  ==================THE END================= 
