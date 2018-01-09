@@ -5,15 +5,13 @@ var keys = require("./keys.js");
 var fs = require("fs");
 var request = require("request");
 var Twitter = require("twitter");
+//var Spotify = require('spotify-web-api-node');
 var Spotify = require('node-spotify-api');
 //creates log.txt file
 var filename = './log.txt';
 //NPM module used to write output to console and log.txt simulatneously
 var log = require('simple-node-logger').createSimpleFileLogger(filename);
 log.setLevel('all');
-
-//input template
-//console.log("Possible commands are: my-tweets , spotify-this-song , movie-this , do-what-it-says");
 
 //argv[2] chooses users actions; argv[3] is input parameter, ie; movie title
 var userCommand = process.argv[2];
@@ -23,6 +21,45 @@ var secondCommand = process.argv[3];
 for (var i = 4; i < process.argv.length; i++) {
     secondCommand += '+' + process.argv[i];
 }
+
+// Fetch Spotify Keys
+var spotify = new Spotify(keys.spotify);
+
+// Writes to the log.txt file
+var getArtistNames = function (artist) {
+    return artist.name;
+};
+
+// Function for running a Spotify search - Command is spotify-this-song
+var getSpotify = function (songName) {
+    if (songName === undefined) {
+        songName = "What's my age again";
+    }
+
+    spotify.search(
+        {
+            type: "track",
+            query: userCommand
+        },
+        function (err, data) {
+            if (err) {
+                console.log("Error occurred: " + err);
+                return;
+            }
+
+            var songs = data.tracks.items;
+
+            for (var i = 0; i < songs.length; i++) {
+                console.log(i);
+                console.log("artist(s): " + songs[i].artists.map(getArtistNames));
+                console.log("song name: " + songs[i].name);
+                console.log("preview song: " + songs[i].preview_url);
+                console.log("album: " + songs[i].album.name);
+                console.log("-----------------------------------");
+            }
+        }
+    );
+};
 
 //Switch command
 function mySwitch(userCommand) {
@@ -74,25 +111,12 @@ function mySwitch(userCommand) {
         var movieName = secondCommand;
         // Then run a request to the OMDB API with the movie specified
         var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes=true&apikey=trilogy";
-        //var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&tomatoes=true&apikey=trilogy";
+
         request(queryUrl, function (error, response, body) {
 
             // If the request is successful = 200
             if (!error && response.statusCode === 200) {
                 var body = JSON.parse(body);
-
-                //I added addtional fields below to log each data point
-                // console.log('================ Movie Info ================');
-                // console.log("Title: " + body.Title);
-                // console.log("Release Year: " + body.Year);
-                // console.log("IMdB Rating: " + body.imdbRating);
-                // console.log("Country: " + body.Country);
-                // console.log("Language: " + body.Language);
-                // console.log("Plot: " + body.Plot);
-                // console.log("Actors: " + body.Actors);
-                // console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
-                // console.log("Rotten Tomatoes URL: " + body.tomatoURL);             
-                // console.log('==================THE END=================');
 
                 //Simultaneously output to console and log.txt via NPM simple-node-logger
                 logOutput('================ Movie Info ================');
@@ -132,51 +156,9 @@ function mySwitch(userCommand) {
         });
     }
 
-    // Fetch Spotify Keys
-    var spotify = new Spotify(keys.Spotify);
-
-    // //Spotify - command: spotify-this-song
-    function getSpotify(secondCommand) {
-
-        //Search Spotify for song and track
-
-        spotify.search({ type: 'track', query: secondCommand }, function (err, data) {
-            if (err) {
-                return console.log('Error occurred: ' + err);
-            }
 
 
-            //My code next 4 lines
-            // spotify.search({ type: 'track', query: secondCommand }, function (error, data) {
-            //     //if error throw error
-            //     if (!error) {
-            //         for (var i = 0; i < data.tracks.items.length; i++) {
-
-            //Set var to return song data
-            var songInfo = data.tracks.items[i];
-            //Return Artist
-            console.log("Artist: " + songInfo.artists[0].name);
-            //Return name of Song
-            console.log("Song: " + songInfo.name);
-            //Return preview link URL
-            console.log("Preview URL: " + songInfo.preview_url);
-            //Return name of Album
-            console.log("Album: " + songInfo.album.name);
-            //Seperator
-            console.log("-----------------------");
-        });
-        // }
-    }
-    // }
-
-    //Simulatenously logs output to the console and to a text file
-    function logOutput(logText) {
-        log.info(logText);
-        console.log(logText);
-    }
-
-    //Closes mySwitch func - Everything except the call must be in this scope
-}
+}   //Closes mySwitch func - Everything except the call must be within this scope
 
 //Call mySwitch function
 mySwitch(userCommand);
